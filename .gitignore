@@ -35,7 +35,7 @@
 
 # OSX Crap
 [Tt]humbs.db
-*.DS_DStore
+*.DS_Store
 
 # SVN / git control
 .git
