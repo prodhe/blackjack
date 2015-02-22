@@ -1,0 +1,181 @@
+/* stilmall för Black Jack */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 13px;
+	font-family: courier, tahoma, verdana, serif;
+	color: #fff;
+	background-color: #000;
+}
+
+img {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+div#page {
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	width: 1000px;
+	height: 600px;
+	margin-left: -500px;
+	background-color: #44aa44;
+}
+
+/*div#content {
+	font-size: 1.0em;
+}*/
+
+
+/* gott och blandat */
+
+div#backdrop {
+	position: absolute;
+	top: 120px;
+	right: 80px;
+}
+div.card {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+	text-align: center;
+}
+
+div.card div {
+	margin: 0px 0 10px 0;
+	padding: 0;
+	font-size: 1.2em;
+/*	font-weight: bold;*/
+	font-family: tahoma;
+	display: block;
+}
+
+div.card div small {
+	color: #215421;
+}
+
+div#dealerCount {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	font-size: 1.2em;
+	font-family: tahoma;
+	width: 72px;
+	text-align: center;
+}
+
+div#action {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	text-align: right;
+}
+
+div#basicstrategy {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: block;
+}
+
+div#status {
+	position: absolute;
+	top: 250px;
+	right: 30px;
+	width: 145px;
+}
+
+div#settings {
+	position: absolute;
+	top: 400px;
+	right: 30px;
+	width: 145px;
+}
+
+div#status, div#settings {
+	background-color: #77b288;
+	border: 1px solid #215421;
+	color: #fff;
+	padding: 15px;
+}
+
+div#popup {
+	position: absolute;
+	top: 150px;
+	left: 45%;
+	width: 400px;
+	height: 180px;
+	margin-left: -200px;
+	text-align: center;
+	display: none;
+	background-color: #77b288;
+	border: 1px solid #215421;
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+}
+div#msgBox {
+	position: absolute;
+	top: 70px;
+	left: 0;
+	width: 400px;
+	height: 180px;
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #000;
+	display: block;
+}
+
+
+/* formulär */
+input.button {
+	font-size: 1.1em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+	display: inline;
+	margin-bottom: 10px;
+	width: 70px;
+}
+
+input.button:hover {
+	background-color: #44cc44;
+}
+
+input.text {
+	display: inline;
+	font-size: 0.9em;
+	width: 30px;
+	background-color: #77b288;
+	border: 0;
+	color: #fff;
+	margin-left: 20px;
+}
+
+
+/* tabellhelvetet */
+table, tr, td {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	font-size: 1.0em;
+}
+td.left {
+	width: 100px;
+}
+form select {
+	width: 50px;
+}
+
+/* Hi-Lo */
+form tr#hiloField, form tr#cardsLeft {
+	display: table-row;
+}
